@@ -1,0 +1,25 @@
+dotenv: .env
+wallets:
+    from_key: ${DEV_PRIV_KEY}
+    from_other_key: ${OTHER_DEV_PRIV_KEY}
+
+# dependencies:
+#   - OpenZeppelin/openzeppelin-contracts@3.4.0
+# compiler:
+#   solc:
+#     remappings:
+#       '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
+
+networks:
+  # default: Ganache-Local
+  default: development
+  Ganache-Local:
+    verify: False
+  rinkeby:
+    verify: True
+  mainnet-fork:
+    verify: False
+  ftm-test:
+    verify: True
+  development:
+    verify: False

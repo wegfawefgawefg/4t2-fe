@@ -1,0 +1,8 @@
+lets just do homepage first
+basic page layout
+grid skeleton
+    react router
+
+dumbass navbar
+some accordians with fake coin shit in them
+python server to shit up fake values
